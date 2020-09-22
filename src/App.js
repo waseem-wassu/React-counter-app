@@ -15,12 +15,9 @@ function App() {
        &nbsp; &nbsp;
        <button onClick={() => {
          setCount(++count);
-       }}>ADD Count</button>
+       }}>Updateount</button>
          &nbsp; &nbsp;
-       <button onClick={() => {
-         setCount(--count);
-       }}>Remove Count</button>
-         &nbsp; &nbsp;
+    
        <button onClick = {() => {
           setDay(!day)
        }}>Update Day</button>
