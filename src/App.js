@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className={` box ${day ? 'dayLight' : 'dayDark'} `}>
-     <h1>lets update on serge files</h1>
+     
     <h1>Now its time to say good {day ? 'morning':'night'}</h1>
 
        <Counter counter={count} />
